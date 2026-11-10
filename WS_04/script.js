@@ -30,6 +30,6 @@ function reduceTime() {
 }
 
 function AddPopup() {
-timeReducer = setInterval(reduceTime, 10);
+timeReducer = setInterval(reduceTime, 100);
 }
 AddPopup();
